@@ -225,7 +225,7 @@ class Ui_Doc_Writer(object):
         self.actionCenter.setObjectName("actionCenter")
         self.actionjustificar = QtWidgets.QAction(Doc_Writer)
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("source/justification.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon4.addPixmap(QtGui.QPixmap("source/justify.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.actionjustificar.setIcon(icon4)
         self.actionjustificar.setObjectName("actionjustificar")
         self.actionrecortar = QtWidgets.QAction(Doc_Writer)
